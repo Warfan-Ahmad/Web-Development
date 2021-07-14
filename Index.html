@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        /* We can color two elements using , and it will apply everywhere */
+        h1,
+        h3 {
+            color: aquamarine;
+        }
+    </style>
+    <title>Basic Website</title>
+</head>
+
+<body>
+    <h1>Warfan</h1>
+    <hr noshade="noshade">
+    <!-- Puts a line across the browser -->
+    <h3>Education</h3>
+    <p>Gestalt Education</p>
+    <p>Govt Boys Higher Secondary</p>
+    <p>Cluster University</p>
+    <hr>
+    <h3>Books To read</h3>
+    <!-- IF we want to make a unordered list we use UL and LI for listing its elements -->
+    <ul>
+        <li>Atomic Habits</li>
+        <li>The power of habit</li>
+        <li>Practical Thinking</li>
+        <li>Thinking Fast and Slow</li>
+    </ul>
+    <hr>
+    <h3>Hobbies</h3>
+    <!-- OL is used to create an ordered list with numbers we can choose a style like roman 123 abc ABC and we can specify where to start from -->
+    <ol start="5">
+        <li><a href="http://">Running</a></li>
+        <li><a href="http://">Cycling</a></li>
+        <li>Hiking</li>
+    </ol>
+
+    <!-- Table is used to show some data in table form in an organizzed form 
+    It has three parts
+    The Table heading TH
+    The Table body tbody
+    The table Footer tfoot-->
+    <table>
+        <tr>
+            <td>2012</td>
+            <td>Higher Secondary</td>
+        </tr>
+        <tr>
+            <td>2015</td>
+            <td>College</td>
+        </tr>
+    </table>
+    <hr>
+    <h3>Skills</h3>
+
+    <!-- Table has a attribute as cell spacing creating some space around the cells to make it look better -->
+    <table cellspacing=20px>
+        <tr>
+            <td>HTML</td>
+            <td>⭐⭐⭐⭐</td>
+            <td>Java</td>
+            <td>⭐</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>⭐⭐⭐</td>
+            <td>Angular</td>
+            <td>⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Bootstrap</td>
+            <td>⭐⭐</td>
+            <td>MongoDB</td>
+            <td>⭐</td>
+        </tr>
+        <tr>
+            <td>Jscript</td>
+            <td>⭐⭐</td>
+            <td>Jquery</td>
+            <td>⭐</td>
+        </tr>
+        <tr>
+            <td>Github</td>
+            <td>⭐</td>
+            <td>PHP</td>
+            <td>⭐⭐</td>
+        </tr>
+        <tr>
+            <td>Python</td>
+            <td>⭐⭐</td>
+            <td>C++</td>
+            <td>⭐⭐⭐⭐</td>
+        </tr>
+    </table>
+    <hr>
+
+    <!-- Form is used to collect the data from the user and we can use different types from text, password, email ,radio button check box to get data from user and then we can send it using get and post request and perform an action -->
+    <form action="mailto:warfanahmad@gmail.com" method="post" enctype="text/plain">
+        <label for="">Name</label>
+        <input type="text" autocapitalize="" name="Name" id=""><br><br>
+        <label for="">Address</label>
+        <input type="text" autocapitalize="" name="Address" id=""><br><br>
+        <label for="">Phone</label>
+        <input type="number" name="Phone" id=""><br><br>
+        <label for="">Email</label>
+        <input type="email" name="Email" id=""><br><br>
+        <label for="">Sign Up for email letters</label>
+        <input type="checkbox" name="Signedup" id=""><br><br>
+        <label for="">Gender</label>
+        <input type="radio" name="Male" id="">Male
+        <input type="radio" name="Female" id="">Female
+        <input type="submit" value="Submit">
+    </form>
+
+
+
+
+
+</body>
+
+</html>

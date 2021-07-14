@@ -1,0 +1,24 @@
+.top {
+  position: relative;
+  left: 400px;
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  display: inline-block;
+}
+.mid {
+  position: relative;
+  right: 200px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+.bottom {
+  position: relative;
+  right: 200px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+}
