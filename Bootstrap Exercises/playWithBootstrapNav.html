@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Navbars</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <!-- This is designing navbar and the lines above says what kind of navbar we are expecting -->
+        <a href="" class="navbar-brand"><img src="img/google-maps.png" height="35px" alt=""></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- This is  used to toggle the navbar when we are in the smaller devices the placement of the btn matters if we put it before the image then the icon will also be in the dropdown btn -->
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!-- Here is the id of the div which we need to collapse and it is enclosed in the div -->
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"> <a href="#" class="text-success nav-link">Home</a></li>
+                <li class="nav-item"> <a href="#" class="text-success nav-link">Contact Us</a></li>
+
+                <!-- in case if we need a dropdown menu we can design that too -->
+                <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle text-success " href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                    </a>
+                    <!-- This is what is kept in the dropdown menu -->
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                        <a class=" text-success dropdown-item" href="#">Web Designing</a>
+                        <a class="text-success dropdown-item" href="#">Web Development</a>
+                        <div class="dropdown-divider bg-light "></div>
+                        <a class=" text-success dropdown-item" href="#">Software Designing</a>
+                        <a class="text-success dropdown-item" href="#">Software Development</a>
+                        <div class="dropdown-divider bg-light"></div>
+                    </div>
+
+                <li class="nav-item"> <a href="#" class="text-success nav-link">About Us</a> </li>
+                <li class="nav-item"> <a href="#" class="text-success nav-link">Download</a> </li>
+                </li>
+
+            </ul>
+        </div>
+
+    </nav>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+</html>

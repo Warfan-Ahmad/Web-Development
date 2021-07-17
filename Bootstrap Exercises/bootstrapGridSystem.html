@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Responsive Divs </title>
+</head>
+
+<body>
+    <!-- THe upper div known as row is the row where we place our divs and style them according to the size of the devices
+    lg stands for larger devices
+    md stands for medium devices
+    sm stands for smaller devices
+    and each is divided by 12
+    -->
+    <div class="row align-items-center" style="height: 300px; background-color: lightcoral;">
+        <!-- This is the illustration if we want to have our div in center in the div we want to we can use it at start center and end -->
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blueviolet; border: 3px solid;">
+            column-4
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blueviolet; border: 3px solid;">
+            column-4
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blueviolet; border: 3px solid;">
+            column-4
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6" style="background-color: blueviolet; border: 3px solid;">
+            column-4
+        </div>
+    </div>
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Exercise Where i have to display 6 column in larger device and 4 in the medium and full in small devices -->
+    <div class="row">
+        <div class="col-lg-2 col-md-3 col-sm-12" style="background-color: rgb(80, 226, 43); border: 3px solid;">
+            column-1
+        </div>
+        <div class="col-lg-2  col-md-3 col-sm-12" style="background-color:  rgb(80, 226, 43); border: 3px solid;">
+            column-2
+        </div>
+        <div class="col-lg-2  col-md-3 col-sm-12" style="background-color:  rgb(80, 226, 43); border: 3px solid;">
+            column-3
+        </div>
+        <div class="col-lg-2  col-md-3 col-sm-12" style="background-color:  rgb(80, 226, 43); border: 3px solid;">
+            column-4
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:  rgb(80, 226, 43); border: 3px solid;">
+            column-5
+        </div>
+        <div class="col-lg-2 col-md-3 col-sm-12" style="background-color:  rgb(80, 226, 43); border: 3px solid;">
+            column-6
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- if we put on the auto then it automatically sets itself up but that isnt good i think -->
+    <div class="row">
+        <div class="col-lg-2 col-md-auto col-sm-12" style="background-color: rgb(226, 110, 43); border: 3px solid;">
+            column-1
+        </div>
+        <div class="col-lg-2 col-md-auto col-sm-12" style="background-color:  rgb(226, 110, 43); border: 3px solid;">
+            column-2
+        </div>
+        <div class="col-lg-2 col-md-auto col-sm-12" style="background-color:  rgb(226, 110, 43); border: 3px solid;">
+            column-3
+        </div>
+        <div class="col-lg-2 col-md-auto col-sm-12" style="background-color:  rgb(226, 110, 43); border: 3px solid;">
+            column-4
+        </div>
+        <div class="col-lg-2 col-md-auto col-sm-12" style="background-color:  rgb(226, 110, 43); border: 3px solid;">
+            column-5
+        </div>
+        <div class="col-lg-2 col-md-auto col-sm-12" style="background-color:  rgb(226, 110, 43); border: 3px solid;">
+            column-6
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="row ">
+        <div class="col" style="background-color: rgb(208, 226, 43); border: 3px solid;">
+            column-1
+        </div>
+        <div class="col" style="background-color:  rgb(208, 226, 43); border: 3px solid;">
+            column-2
+        </div>
+        <!-- Here if we set the width of a div to auto it will take the whole space regardless of the viewport -->
+
+        <div class="w-100" style="background-color:  rgb(208, 226, 43); border: 3px solid;">
+            column-3
+        </div>
+        <div class="col" style="background-color:  rgb(208, 226, 43); border: 3px solid;">
+            column-4
+        </div>
+        <div class="col" style="background-color:  rgb(208, 226, 43); border: 3px solid;">
+            column-5
+        </div>
+        <div class="col" style="background-color:  rgb(208, 226, 43); border: 3px solid;">
+            column-6
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-2" style="background-color: blueviolet; border: 3px solid;">
+                1 of 3
+            </div>
+            <div class="col-md-auto" style="background-color: blueviolet; border: 3px solid;">
+                Variable width content
+            </div>
+            <div class="col col-lg-2" style="background-color: blueviolet; border: 3px solid;">
+                3 of 3
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col" style="background-color: blueviolet; border: 3px solid;">
+                1 of 3
+            </div>
+            <div class="col-md-auto" style="background-color: blueviolet; border: 3px solid;">
+                Variable width content
+            </div>
+            <div class="col col-lg-2" style="background-color: blueviolet; border: 3px solid;">
+                3 of 3
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <!-- Here we get familiar with many concenpts of Flexbox system 
+here we can use 
+justify-content-start
+justify-content-center
+justify-content-end
+justify-content-between
+justify-content-around
+-->
+
+    <div class="container">
+        <!-- The justify content starts put the content in the starting of the container -->
+        <div class="row justify-content-start">
+            <div class="col-4" style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+            <div class="col-4" style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row justify-content-center">
+            <!-- The justify content center put the content in the center of the container -->
+            <div class="col-4" style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+            <div class="col-4" style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+        </div>
+        <br>
+        <br>
+
+        <div class="row justify-content-end">
+            <!-- The justify content end put the content in the end of the container -->
+            <div class="col-4" style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+            <div class="col-4" style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <div class="row justify-content-around">
+            <!-- The justify content around put the content in the around meaning that the content will be placed in the center of the container -->
+            <div class="col-4 " style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+            <div class="col-4 " style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="row justify-content-between">
+            <!-- The justify content between put the content in the start and end and wraps around the content of the container -->
+            <div class="col-4" style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+            <div class="col-4" style="background-color: crimson; border: 2px solid orange;">
+                One of two columns
+            </div>
+        </div>
+    </div>
+    <br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br>
+    <!-- here is the ordering if we want to put some div first we can use the order -->
+    <div class="container">
+        <div class="row">
+            <div class="col order-last">
+                First, but last
+            </div>
+            <div class="col">
+                Second, but unordered
+            </div>
+            <div class="col order-first">
+                Third, but first
+            </div>
+        </div>
+    </div>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br>
+
+
+    <div class="row">
+        <div class="col-md-4" style="background-color: blueviolet; border: 3px solid;">.col-md-4</div>
+        <div class="col-md-4 offset-md-4 " style="background-color: blueviolet; border: 3px solid;">.col-md-4
+            .offset-md-4</div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 offset-md-3" style="background-color: blueviolet; border: 3px solid;">.col-md-3
+            .offset-md-3</div>
+        <div class="col-md-3 offset-md-3" style="background-color: blueviolet; border: 3px solid;">.col-md-3
+            .offset-md-3</div>
+    </div>
+    <div class="row">
+        <!-- we can center the element by this also  -->
+        <div class="col-md-6 offset-md-3" style="background-color: blueviolet; border: 3px solid;">.col-md-6
+            .offset-md-3</div>
+    </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

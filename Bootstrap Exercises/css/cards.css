@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: rgb(210, 230, 173);
+}
+.row {
+  padding: 12% 23%;
+}
+.card {
+  border-radius: 1rem;
+}
+.card-title {
+  line-height: 2;
+}
+.fa-mountain {
+  color: orangered;
+}
+.fa-dot-circle {
+  color: yellow;
+  padding: 0 0 0 5rem;
+}
+.name {
+  margin-bottom: 0;
+  color:blue;
+  display: inline-block;
+}
+hr {
+  color: orange;
+  margin: 0;
+}
+.tag {
+  font-size: 0.7rem;
+  color: orange;
+}
+.flight-gate
+{
+  padding-left: 25%;
+}
+.boarding-time{
+  display: inline-block;
+}
+.gate-no{
+  display: inline;
+  margin-right: 4rem;
+  padding-left: 25%; 
+}
+.rowthree
+{
+  padding: 0 0 0 20%;
+}
+.rowthreetag{
+  display: inline-block;
+  padding: 0 0 0 20%;
+}
+

@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.right-side {
+  padding: 22% 5%;
+}
+.title-heading {
+}
+.subheading {
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+}
+.bold {
+  font-weight: bolder;
+}
+
+.left-side {
+  padding: 4% 9%;
+}
+.bill-heading {
+  display: inline-block;
+  margin-bottom: 50px;
+}
+.invoice-tag {
+  padding: 0;
+  margin: 0;
+}
+.invoice {
+  padding-left: 30%;
+  display: inline-block;
+}
+.invheading {
+  font-size: 1.5rem;
+}
+
+.table {
+  border: 1px dotted;
+  text-align: center;
+}
+.table img {
+  width: 4.5rem;
+}
+.table td {
+  border: 1px dotted;
+  padding-top: 4%;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.cal {
+  text-align: right;
+  padding-right: 9% !important;
+}
+.bg-grey {
+  background-color: #6c757d;
+}
+
+@media screen (max-width: 760px) {
+  .invoice {
+    padding-bottom: 10%;
+  }
+}
